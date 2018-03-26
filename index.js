@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 });
 
 // assign a port to the express app
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 80;
 // set the new app to listen on specfic Port
 
 app.listen(PORT);
